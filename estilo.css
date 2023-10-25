@@ -1,0 +1,77 @@
+/* Defina a cor de fundo e o gradiente para o corpo */
+*
+body {
+    background-color: #00203c;
+    background-image: linear-gradient(#030729, #0a0338, #0a0547, #0d0658, #0c096f);
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo para links de navegação ativos */
+.nav-link.active {
+    border-radius: 100%;
+}
+
+/* Estilo para cartões */
+.card {
+    background-color: #19203d;
+}
+
+/* Estilo para o texto dentro dos cartões */
+.card-text {
+    color: white;
+}
+
+/* Estilo para o título do cartão */
+.card-title {
+    color: white;
+}
+form{
+    margin-top: 11%;
+    margin-left: 22%;
+    margin-right: 18%;
+}
+label{
+    color: #102372;
+}
+h1{
+    color: white;
+}
+h2{
+    color: whitesmoke;
+}
+h3{
+    color: white;
+    font-size: 32px;
+}
+/* Estilo para o elemento com a classe text1 (sem o "p") */
+.text1 {
+   
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 25px;
+    color: white;
+}
+hr{
+    border-color: #030729;
+}
+/* Estilo para o elemento footer */
+footer {
+    color: 	black;
+    text-align: center;
+}
+@media screen and (max-width: 730px) {
+    .text1 {
+   
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-indent: 5px;
+        text-align: left;
+        color: white;
+        padding-left: 5px auto;
+    }
+}
